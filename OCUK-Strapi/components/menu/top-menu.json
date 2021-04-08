@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_menu_top_menus",
+  "info": {
+    "name": "MenuItem",
+    "icon": "code-branch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

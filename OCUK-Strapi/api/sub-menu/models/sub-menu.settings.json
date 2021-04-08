@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sub_menus",
+  "info": {
+    "name": "SubMenu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "MenuItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.top-menu"
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}

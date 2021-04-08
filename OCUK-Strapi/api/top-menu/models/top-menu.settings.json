@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_menus",
+  "info": {
+    "name": "TopMenu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "sub_menu": {
+      "model": "sub-menu"
+    },
+    "ShowOnFooter": {
+      "type": "boolean"
+    }
+  }
+}
